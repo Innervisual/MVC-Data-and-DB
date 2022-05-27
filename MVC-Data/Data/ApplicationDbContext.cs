@@ -12,6 +12,7 @@ namespace MVC_Data.Data
 
         public DbSet<Person> People { get; set; }
 
-        public DbSet<Personalia> Personalias { get; set; }
+        public DbSet<City> City { get; set; }
+
     }
 }

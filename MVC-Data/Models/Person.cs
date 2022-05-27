@@ -10,10 +10,7 @@ namespace MVC_Data.Models
         [Required]
         public int PhoneNumber { get; set; }
         [Required]
-        public string City { get; set; }
-
-        [Required]
-        public string MobileNumber { get; set; }
+        public City City { get; set; }
 
         [Key]
         public int Id { get; set; }
