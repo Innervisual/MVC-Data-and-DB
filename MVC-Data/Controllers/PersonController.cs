@@ -112,5 +112,13 @@ namespace MVC_Data.Controllers
             return View();
         }
 
+
+        public IActionResult PersonPage()
+        {
+
+            return View("PersonPage");
+        }
+
+
     }
 }

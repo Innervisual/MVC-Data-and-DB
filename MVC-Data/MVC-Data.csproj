@@ -6,6 +6,18 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+	  <Compile Remove="Views\Person\PersonPage.xaml.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Content Remove="Views\Person\ListOfPeople - Copy.cshtml" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Remove="Views\Person\PersonPage.xaml" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<Folder Include="Data\" />
 		<Folder Include="wwwroot\css\" />
 		<Folder Include="wwwroot\images\" />
