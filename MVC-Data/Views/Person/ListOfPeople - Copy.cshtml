@@ -1,6 +1,6 @@
 ﻿@{
 
-    // ViewData["Title"] = "Index";
+            // ViewData["Title"] = "Index";
 }
 
 <style>
@@ -23,9 +23,10 @@
     {
         <tr>
             <td><a href="">@person.Name</a></td>
-            <td>@person.City</td>
+            <td>@person.City.Name</td>
             <td>@person.PhoneNumber</td>
             <td>@person.Id</td>
+            <td><button /></td>
         </tr>
     }
 
@@ -53,7 +54,8 @@
 @model IEnumerable<MVC_Data.Models.Person>
 @foreach (var person in Model)
 {
-    <partial name="_partial" model="person"/> 
-    @Html.Partial("_partial", person);
+    <partial name="_partial" model="person" />
+    @Html.Partial("_partial", person)
+    ;
 
 }

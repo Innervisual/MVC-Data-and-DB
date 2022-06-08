@@ -1,0 +1,31 @@
+﻿using Person.Model;
+
+
+@model IEnumerable<PersonPage>
+    @{
+        ViewData["Title"]="Index";
+
+    }
+    <h1>Personpage</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>ggggg</th>
+                <th>vvvv</th>
+                <th>mmmmm</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>ggggg</td>
+                    <td>vvvv</td>
+                    <td>mmmmm</td>
+                </tr>
+            }
+
+        </tbody>
+
+    </table>
